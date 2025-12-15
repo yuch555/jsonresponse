@@ -25,7 +25,7 @@ npm start
 npm run dev
 ```
 
-サーバーは `http://localhost:3000` で起動します。
+サーバーは `http://localhost:60000` で起動します。
 
 ## 📁 ディレクトリ構成
 
@@ -53,7 +53,7 @@ mock-api/
 
 **リクエスト例:**
 ```bash
-curl -X POST http://localhost:3000/auth/login \
+curl -X POST http://localhost:60000/auth/login \
   -H "Content-Type: application/json" \
   -d '{"email": "user@example.com", "password": "pass"}'
 ```
@@ -75,7 +75,7 @@ curl -X POST http://localhost:3000/auth/login \
 **エラーレスポンス（401）:**
 ```bash
 # error@test.com を送信した場合
-curl -X POST http://localhost:3000/auth/login \
+curl -X POST http://localhost:60000/auth/login \
   -H "Content-Type: application/json" \
   -d '{"email": "error@test.com", "password": "pass"}'
 ```
@@ -96,7 +96,7 @@ curl -X POST http://localhost:3000/auth/login \
 
 **リクエスト例:**
 ```bash
-curl http://localhost:3000/users
+curl http://localhost:60000/users
 ```
 
 **レスポンス（200）:**
@@ -123,7 +123,7 @@ curl http://localhost:3000/users
 
 **リクエスト例:**
 ```bash
-curl http://localhost:3000/users/1
+curl http://localhost:60000/users/1
 ```
 
 **成功レスポンス（200）:**
@@ -151,7 +151,7 @@ curl http://localhost:3000/users/1
 **エラーレスポンス（404）:**
 ```bash
 # ID 999 の場合
-curl http://localhost:3000/users/999
+curl http://localhost:60000/users/999
 ```
 
 ```json
@@ -207,7 +207,7 @@ npm run dev
 // フロント側のAPI設定
 const apiBase =
   process.env.NODE_ENV === "development"
-    ? "http://localhost:3000"  // モックAPI
+    ? "http://localhost:60000"  // モックAPI
     : "https://api.example.com"; // 本番API
 
 // 使用例
