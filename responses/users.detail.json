@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "山田太郎",
+  "email": "yamada@example.com",
+  "role": "admin",
+  "profile": {
+    "bio": "フロントエンドエンジニア",
+    "avatar": "https://via.placeholder.com/150",
+    "location": "東京都"
+  },
+  "stats": {
+    "posts": 42,
+    "followers": 128,
+    "following": 95
+  },
+  "createdAt": "2024-01-15T10:30:00Z",
+  "updatedAt": "2024-12-15T08:20:00Z"
+}

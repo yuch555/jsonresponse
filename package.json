@@ -1,0 +1,20 @@
+{
+  "name": "mock-api",
+  "version": "1.0.0",
+  "description": "Fastify-based mock API for frontend development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["mock", "api", "fastify"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.25.2",
+    "@fastify/autoload": "^5.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

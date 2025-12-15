@@ -1,0 +1,5 @@
+{
+  "success": false,
+  "error": "INVALID_CREDENTIALS",
+  "message": "メールアドレスまたはパスワードが間違っています"
+}

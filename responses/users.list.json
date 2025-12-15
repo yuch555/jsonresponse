@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "山田太郎",
+      "email": "yamada@example.com",
+      "role": "admin",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "佐藤花子",
+      "email": "sato@example.com",
+      "role": "user",
+      "createdAt": "2024-02-20T14:45:00Z"
+    },
+    {
+      "id": 3,
+      "name": "鈴木一郎",
+      "email": "suzuki@example.com",
+      "role": "user",
+      "createdAt": "2024-03-10T09:15:00Z"
+    }
+  ],
+  "total": 3,
+  "page": 1,
+  "perPage": 20
+}

@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.mock.token",
+  "user": {
+    "id": 1,
+    "email": "user@example.com",
+    "name": "山田太郎",
+    "role": "user"
+  }
+}
